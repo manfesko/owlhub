@@ -21,3 +21,5 @@ local lp = game:GetService("Players").LocalPlayer
         return newindex(self, property, value)
     end)
  lp.Character:FindFirstChildWhichIsA("Humanoid").WalkSpeed = g
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 90
